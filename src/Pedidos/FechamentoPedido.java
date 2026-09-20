@@ -8,7 +8,7 @@ public class FechamentoPedido {
 
     private PedidoCalculavel pedido;
     private FormaPagamento formaPagamento;
-    private Boolean cupomAplicado = false;
+    private boolean cupomAplicado = false;
 
     public FechamentoPedido(PedidoCalculavel pedido, FormaPagamento formaPagamento) {
         this.pedido = pedido;

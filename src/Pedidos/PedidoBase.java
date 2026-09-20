@@ -2,7 +2,7 @@ package Pedidos;
 
 public class PedidoBase implements PedidoCalculavel
 {
-    double valorBase;
+    private double valorBase;
 
     public PedidoBase(double valorBase)
     {
