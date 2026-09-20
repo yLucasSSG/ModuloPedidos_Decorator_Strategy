@@ -110,7 +110,7 @@ classDiagram
     }
 
     class PedidoBase {
-        ~valorBase double
+        -valorBase double
         +PedidoBase(valorBase)
         +getTotal() double
         +getDescricao() String
@@ -158,7 +158,7 @@ classDiagram
     class FechamentoPedido {
         -pedido PedidoCalculavel
         -formaPagamento FormaPagamento
-        -cupomAplicado Boolean
+        -cupomAplicado boolean
         +FechamentoPedido(pedido, formaPagamento)
         +setFormaPagamento(formaPagamento) void
         +AplicarCupom(cupom) void
